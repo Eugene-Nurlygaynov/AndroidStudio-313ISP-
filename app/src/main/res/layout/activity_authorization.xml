@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#98FB98"
+    tools:context=".AuthorizationActivity">
+
+    <ImageView
+        android:layout_margin="100dp"
+        android:id="@+id/Reg_Image"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="180dp"
+        android:layout_height="216dp"
+        app:srcCompat="@drawable/pizza" />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/editTextTextPersonName"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Login"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Password"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <Button
+        android:id="@+id/entrance_btl"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:onClick="signin"
+        android:text="Войти" />
+
+    <Button
+        android:id="@+id/registration_bt"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:onClick="registration"
+        android:text="Регистрация" />
+
+</LinearLayout>
